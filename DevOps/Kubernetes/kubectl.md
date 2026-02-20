@@ -19,3 +19,6 @@ Kubectl позволяет общаться именно с master processes, н
 14. kubectl describe ingress ИМЯ - получить информацию о Ingress
 15. kubectl get endpoints - посмотреть все endpoints
 16. kubectl describe endpoints ИМЯ - получить информацию о endpoints сервиса с именем
+17. kubectl scale deployment ИМЯ --replicas=N - изменить количество подов в deployment
+18. kubectl get sa -n NS - посмотреть список Service Accounts, которые существуют в конкретном NS
+19. kubectl rollout restart ИМЯ - безопасный перезапуск, можно делать для Deployment, StatefullSet и Daemons
